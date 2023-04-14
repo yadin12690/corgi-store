@@ -9,6 +9,11 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  font-family: 'Jost', sans-serif;
+  transition-duration: 300ms;
+}
+
 :root {
   --qwik-dark-blue: #006ce9;
   --qwik-light-blue: #18b6f6;
